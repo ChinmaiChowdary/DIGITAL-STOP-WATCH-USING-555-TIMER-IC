@@ -10,7 +10,7 @@ This IC can be used for decade-counting seven-segment decimal displays, frequenc
 The circuit operates on a 5-volt DC supply. It uses a seven-segment LED display of common anode type to show time.
 
 
-CIRCUIT DIAGRAM:
+CIRCUIT DIAGRAM:        // In PROTEUS
 
 ![image](https://github.com/ChinmaiChowdary/DIGITAL-STOP-WATCH-USING-555-TIMER-IC/assets/119433702/b38120e2-9ab1-412e-a0b7-09afa320ea6e)
 
