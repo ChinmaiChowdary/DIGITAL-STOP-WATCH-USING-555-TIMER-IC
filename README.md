@@ -1,5 +1,7 @@
 # DIGITAL-STOP-WATCH-USING-555-TIMER-IC
 IC Applications
+
+
 A stopwatch is a timer that is used to measure an event anywhere from milliseconds to several hours. We can start and stop the count of the stopwatch at any instant and it can also be reset to zero to measure the timing of a new event.
 Stopwatches need no introduction; we use them at many points in our lives to measure timings for several purposes, like during cooking to avoid the food being overcooked or undercooked, during a sports event, or even at the science lab.
 Stopwatches may be analog or digital. Digital stopwatches are much more common than analog versions, owing to their higher accuracy and ease of use. Here we have tried to realize a digital stopwatch of reasonable accuracy and reliability. 
