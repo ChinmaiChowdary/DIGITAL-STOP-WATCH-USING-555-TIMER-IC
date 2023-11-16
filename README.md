@@ -15,9 +15,19 @@ CIRCUIT DIAGRAM:
 
 
 
-In this circuit, we have used a 555 timer IC-based a-stable multivibrator, which is for creating a 1-second delay. And two common cathode seven-segment decoder ICs, namely CD4026. The output of the A-stable multivibrator is directly applied to the seven-segment decoder's (U2) Clock pin (1) and carry output pin (5) of the U2 IC is directly connected to the clock pin (1) of the second seven-segment decoder (U1). And seven segments are connected with this decoder (U1 and U2). Its connections are shown in the stopwatch circuit diagram given below. One push button is used to stop or start the stopwatch and one push button is used to reset the stopwatch. A 5-volt voltage regulator is used to provide 5 volts to the whole circuit. A 9-volt battery is used for powering the circuit. The rest of the connections are shown in the circuit diagram. 
+In this circuit, we have used a 555 timer IC-based a-stable multivibrator, which is for creating a 1-second delay. And two common cathode seven-segment decoder ICs, namely CD4026. The output of the A-stable multivibrator is directly applied to the seven-segment decoder's (U2) Clock pin (1) and carry output pin (5) of the U2 IC is directly connected to the clock pin (1) of the second seven-segment decoder (U1). And seven segments are connected with this decoder (U1 and U2). Its connections are shown in the stopwatch circuit diagram given below. One push button is used to stop or start the stopwatch and one push button is used to reset the stopwatch. A 5-volt voltage regulator is used to provide 5 volts to the whole circuit. A 9-volt battery is used for powering the circuit. The rest of the connections are shown in the circuit diagram.
 
 Working:
 
 In this stopwatch circuit, we have generated a second delay by using a 555 timer based on a stable multivibrator. By using some calculation we can easily generate a second delay. In a stable multivibrator, there are two resistors, and one capacitor is responsible for delay by charging or discharging a capacitor through resistors. The calculation formula for generating delay for a stable multivibrator is given below. F=1/T= 1.44/(R1 + 2R2) C1.
-In this project, we have selected R1 as 60K, R2 as 30K, and C1 as 10uF. As an A-stable multi-vibrator generates a one-second delay, this delay is oscillations or pulse of 0 and 1. So we will use this pulse to trigger the seven-segment decoder then the segment decoder changes the digit number within the one-second time period. When we ON the stopwatch (by start/stop button), it starts counting from zero and if we turn OFF the same button then counting is stop or pause until again turned ON the same button or press the reset button. There are two segments, so this stopwatch circuit can count from 00 to 99 seconds.
+In this project, we have selected R1 as 60K, R2 as 30K, and C1 as 10uF. As an A-stable multi-vibrator generates a one-second delay, this delay is oscillations or pulse of 0 and 1. So we will use this pulse to trigger the seven-segment decoder, and then the segment decoder will change the digit number within the one-second time period. When we ON the stopwatch (by start/stop button), it starts counting from zero and if we turn OFF the same button again or press the reset button. There are two segments, so this stopwatch circuit can count from 00 to 99 seconds.
+
+
+OUTPUT:
+
+![image](https://github.com/ChinmaiChowdary/DIGITAL-STOP-WATCH-USING-555-TIMER-IC/assets/119433702/e69d451a-3820-4716-9deb-bcc2eaf74e80)
+
+
+Simulation Output:
+
+![image](https://github.com/ChinmaiChowdary/DIGITAL-STOP-WATCH-USING-555-TIMER-IC/assets/119433702/0a56c3fe-69ac-4871-854c-7f808391b410)
