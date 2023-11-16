@@ -11,6 +11,7 @@ The circuit operates on a 5-volt DC supply. It uses a seven-segment LED display 
 
 
 CIRCUIT DIAGRAM:
+
 ![image](https://github.com/ChinmaiChowdary/DIGITAL-STOP-WATCH-USING-555-TIMER-IC/assets/119433702/b38120e2-9ab1-412e-a0b7-09afa320ea6e)
 
 
